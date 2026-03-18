@@ -1,6 +1,6 @@
 # Мой Hugo блог
 
-Минималистичный блог на Hugo в стиле [Overreacted.io](https://overreacted.io) Dan Abramov.
+Минималистичный блог на Hugo .
 
 ## 🚀 Быстрый старт
 
