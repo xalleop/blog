@@ -1,11 +1,11 @@
 baseURL = 'https://xalleop.github.io/blog'
 languageCode = 'ru-ru'
-title = 'Мой блог'
+title = 'Вокруг ИИ'
 # theme = ''
 
 [params]
-  author = "Ваше имя"
-  description = "Блог о..."
+  author = "Андрей Дерябин"
+  description = "Общество, человек и государство в эпоху искусственного интеллекта: управление, регулирование, образование, безопасность"
   
 [markup]
   [markup.highlight]
