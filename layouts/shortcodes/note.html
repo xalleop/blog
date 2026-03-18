@@ -1,0 +1,33 @@
+<div class="note note-{{ .Get 0 | default "info" }}">
+  {{ .Inner | markdownify }}
+</div>
+
+<style>
+.note {
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  background-color: var(--bg-secondary);
+}
+
+.note-info {
+  border-color: #3b82f6;
+}
+
+.note-warning {
+  border-color: #f59e0b;
+}
+
+.note-danger {
+  border-color: #ef4444;
+}
+
+.note-success {
+  border-color: #10b981;
+}
+
+.note p:last-child {
+  margin-bottom: 0;
+}
+</style>

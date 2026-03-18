@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="home">
+    {{ range .Site.RegularPages }}
+    <article class="post-preview">
+        <h2 class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        <p class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "2 January 2006" }}
+            </time>
+            <span class="reading-time">• {{ .ReadingTime }} мин чтения</span>
+        </p>
+        <p class="post-summary">{{ .Summary }}</p>
+    </article>
+    {{ end }}
+</div>
+{{ end }}

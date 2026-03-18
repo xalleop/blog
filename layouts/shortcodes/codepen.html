@@ -1,0 +1,9 @@
+{{- $user := .Get "user" -}}
+{{- $id := .Get "id" -}}
+{{- $height := .Get "height" | default "500" -}}
+{{- $theme := .Get "theme" | default "dark" -}}
+
+<p class="codepen" data-height="{{ $height }}" data-theme-id="{{ $theme }}" data-default-tab="result" data-slug-hash="{{ $id }}" data-user="{{ $user }}">
+  <span>See the Pen on <a href="https://codepen.io/{{ $user }}/pen/{{ $id }}">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

@@ -1,0 +1,18 @@
+baseURL = 'https://username.github.io/blog'
+languageCode = 'ru-ru'
+title = 'Мой блог'
+theme = ''
+
+[params]
+  author = "Ваше имя"
+  description = "Блог о..."
+  
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 2
+
+[outputs]
+  home = ["HTML", "RSS"]
