@@ -1,7 +1,7 @@
 baseURL = 'https://xalleop.github.io/blog'
 languageCode = 'ru-ru'
 title = 'Мой блог'
-theme = ''
+# theme = ''
 
 [params]
   author = "Ваше имя"
