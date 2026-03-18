@@ -1,4 +1,4 @@
-baseURL = 'https://username.github.io/blog'
+baseURL = 'https://xalleop.github.io/blog'
 languageCode = 'ru-ru'
 title = 'Мой блог'
 theme = ''
