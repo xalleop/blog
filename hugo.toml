@@ -3,6 +3,9 @@ languageCode = 'ru-ru'
 title = 'Вокруг ИИ'
 # theme = ''
 
+[services.googleAnalytics]
+  ID = 'G-DQ92W1DJ2Q'  # ← вставь сюда свой ID
+  
 [params]
   author = "Андрей Дерябин"
   description = "Общество, человек и государство в эпоху искусственного интеллекта: управление, регулирование, образование, безопасность"

@@ -6,6 +6,8 @@
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
     <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+        
+    {{ template "_internal/google_analytics.html" . }}
 </head>
 <body>
     {{ partial "header.html" . }}
