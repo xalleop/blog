@@ -10,7 +10,7 @@ author: "Андрей Дерябин"
 Что именно ИИ меняет в деятельности и куда он вторгается. Два тезиса о том, почему формула «ИИ — просто инструмент» не выдерживает проверки практикой, и кейс врача, у которого ИИ сломал само представление о том, что значит «поставить диагноз».
 <!--more-->
 
-[Часть 1 здесь](https://telegra.ph/Slepoe-pyatno-pedagogiki-pochemu-te-kto-uchit-myslit-ne-mogut-pomyslit-II-03-05)
+[Часть 1](https://xalleop.github.io/blog/posts/2026-03-06-ai-dilemmas-v-obrazonanii-ch-1/) [Часть 2] [Часть 3](https://xalleop.github.io/blog/posts/2026-03-14-ai-dilemmas-v-obrazonanii-ch-3/)
 
 ### ИИ: не сказать, что субъектность, но уже агентность.
 
