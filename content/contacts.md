@@ -5,11 +5,8 @@ draft: false
 type: "page"
 ---
 
-### Связаться со мной
-
-**Email:** your@email.com
+По вопросам сотрудничества пишите в Telegram.
 
 **Telegram:** [@datacampus](https://t.me/datacampus)
 
-
-По вопросам сотрудничества пишите на email.
+**Email:** лучше пишите в телеграм.
