@@ -7,7 +7,7 @@ type: "page"
 
 ### Связаться со мной
 
-**Email:** your@email.com
+**Email:** andred [собака] yandex [точка] com
 
 **Telegram:** [@datacampus](https://t.me/datacampus)
 
