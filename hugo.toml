@@ -9,6 +9,7 @@ title = 'Вокруг ИИ'
 [params]
   author = "Андрей Дерябин"
   description = "Общество, человек и государство в эпоху искусственного интеллекта: управление, регулирование, образование, безопасность"
+  telegram = "https://t.me/vokrug_ai_ru"
   
 [markup]
   [markup.highlight]

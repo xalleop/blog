@@ -6,5 +6,10 @@
         {{ if .Site.Params.description }}
         <p class="site-description">{{ .Site.Params.description }}</p>
         {{ end }}
+        {{ if .Site.Params.telegram }}
+        <p class="site-telegram">
+            <a href="{{ .Site.Params.telegram }}" target="_blank" rel="noopener">Telegram канал</a>
+        </p>
+        {{ end }}
     </div>
 </header>

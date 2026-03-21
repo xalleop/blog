@@ -69,7 +69,7 @@ body {
 
 /* ===== Header ===== */
 .site-header {
-  padding: calc(var(--spacing-unit) * 8) 0 calc(var(--spacing-unit) * 6);
+  padding: calc(var(--spacing-unit) * 5) 0 calc(var(--spacing-unit) * 6);  /* уменьшил с 8 до 5 */
   border-bottom: 1px solid var(--border-color);
   margin-bottom: calc(var(--spacing-unit) * 6);
 }
@@ -97,6 +97,24 @@ body {
   font-size: 1.1rem;
   color: var(--text-secondary);
   font-weight: 400;
+  margin-bottom: calc(var(--spacing-unit) * 1);  /* добавил отступ - может и зря! */
+}
+ 
+.site-telegram {
+  font-size: 0.95rem;
+  margin-top: calc(var(--spacing-unit) * 1);
+}
+ 
+.site-telegram a {
+  color: var(--text-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+ 
+.site-telegram a:hover {
+  color: var(--text-link-hover);
+  border-bottom-color: var(--text-link-hover);
 }
 
 /* ===== Main Content ===== */
