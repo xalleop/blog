@@ -44,7 +44,7 @@
       <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>
       {{- end }}
       <guid>{{ .Permalink }}</guid>
-      <description><![CDATA[{{ .Summary }}]]></description>
+      <description>{{ .Summary | plainify }}</description>
       {{- with .Params.image }}
       <enclosure url="{{ . | absURL }}" type="image/jpeg" />
       <media:content url="{{ . | absURL }}" medium="image" />
