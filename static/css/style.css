@@ -101,7 +101,7 @@ body {
 }
  
 .site-telegram {
-  font-size: 0.95rem;
+  font-size: 1.1rem;  /* фонт как в description */
   margin-top: calc(var(--spacing-unit) * 1);
 }
  
