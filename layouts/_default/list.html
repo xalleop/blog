@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="home">
-    {{ range where .Site.RegularPages "Section" "posts" }} # это фильтр:  складывает в ленту только файлы из папки posts
+    {{ range where .Site.RegularPages "Section" "posts" }}
     <article class="post-preview">
         <h2 class="post-title">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
