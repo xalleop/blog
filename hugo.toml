@@ -20,3 +20,6 @@ title = 'Вокруг ИИ'
 
 [outputs]
   home = ["HTML", "RSS"]
+
+#[services.rss]
+# limit = 20  # количество постов в RSS (по умолчанию unlimited)
