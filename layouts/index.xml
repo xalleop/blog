@@ -15,12 +15,7 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       {{- $summary := .Summary | plainify }}
-      {{- $summary = replaceRE `&\w+;` "" $summary }}
-      {{- $clean := replaceRE `[^\p{L}\p{N}\p{Z}\.,;:!?\-—–]` "" $summary }}
- #     {{- $summary := .Summary | plainify | htmlUnescape }}
-#      {{- $clean := replaceRE `[^\p{L}\p{N}\p{Z}\.,;:!?\-—–«»„""''\"'()\[\]]` "" $summary }}
-#      {{- $summary := .Summary | plainify }}
-#      {{- $clean := replaceRE `[^\p{L}\p{N}\p{Z}\.,;:!?\-—–''""\"'()\[\]]` "" $summary }}
+      {{- $clean := replaceRE `[^\p{L}\p{N}\p{Z}\.,;:!?\-—–''""\"'()\[\]]` "" $summary }}
       <description>{{ $clean | html }}</description>
       {{- with .Params.image }}
       {{- $imgURL := . }}
