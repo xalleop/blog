@@ -9,9 +9,7 @@ type: "page"
 
 **Email:** your@email.com
 
-**Telegram:** [@your_username](https://t.me/datacampus)
+**Telegram:** [@datacampus](https://t.me/datacampus)
 
-
----
 
 По вопросам сотрудничества пишите на email.
