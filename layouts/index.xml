@@ -25,7 +25,7 @@
         {{- $imgURL = printf "%s%s" ($.Site.BaseURL | strings.TrimRight "/") (printf "/%s" (strings.TrimLeft "/" $imgURL)) }}
       {{- end }}
       <media:content url="{{ $imgURL }}" medium="image" />
-      <enclosure url="{{ $imgURL }}" type="image/jpeg" length="0" />
+      <enclosure url="{{ $imgURL }}" type="image/jpeg" length="1" />
       {{- end }}
     </item>
     {{- end }}
