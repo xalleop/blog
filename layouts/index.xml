@@ -1,0 +1,31 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description | default "" }}</description>
+    <generator>Hugo {{ hugo.Version }}</generator>
+    <language>{{ .Site.LanguageCode }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <atom:link href="{{ "index.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    {{- range where .Site.RegularPages "Section" "ne" "" | first 20 }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      {{- $summary := .Summary | plainify }}
+      {{- $clean := replaceRE `[^\p{L}\p{N}\p{Z}\.,;:!?\-—–''""\"'()\[\]]` "" $summary }}
+      <description>{{ $clean | html }}</description>
+      {{- with .Params.image }}
+      {{- $imgURL := . }}
+      {{- if not (strings.HasPrefix $imgURL "http") }}
+        {{- $imgURL = printf "%s%s" ($.Site.BaseURL | strings.TrimRight "/") (printf "/%s" (strings.TrimLeft "/" $imgURL)) }}
+      {{- end }}
+      <media:content url="{{ $imgURL }}" medium="image" />
+      <enclosure url="{{ $imgURL }}" type="image/jpeg" length="0" />
+      {{- end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>
