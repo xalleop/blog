@@ -1,6 +1,7 @@
 ---
 title: "Дилеммы ИИ в образовании. Часть 3"
 date: 2026-03-18T12:00:00+03:00
+image: "https://cdn.assets.lomography.com/ec/a1b4a9023bff257db41c9d4b3b560ce575dd3d/1216x806x2.jpg" # картинка для RSS
 draft: false
 description: ""
 tags: ["культурно-исторический подход", "философия ИИ", "образование", "AI ontology", "AI in education", "AIEd"] 
