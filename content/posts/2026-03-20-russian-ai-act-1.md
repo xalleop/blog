@@ -1,7 +1,7 @@
 ---
 title: "Российский закон об ИИ вынесен на публичное обсуждение"
 date: 2026-03-20T12:00:00+03:00
-image: "https://github.com/user-attachments/assets/71948f0a-50b6-4d57-86d8-10a2a7e60ab8" # RSS image
+image: "https://github.com/user-attachments/assets/d906e1a1-1635-4682-8b7b-0966f35b3b74" # RSS image
 draft: false
 description: ""
 tags: ["AI Governance", "регулирование ИИ", "право"] 
