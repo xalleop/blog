@@ -1,5 +1,5 @@
 ---
-title: "v.2 Российский закон об ИИ вынесен на публичное обсуждение"
+title: "Российский закон об ИИ вынесен на публичное обсуждение"
 date: 2026-03-20T12:00:00+03:00
 image: "https://github.com/user-attachments/assets/71948f0a-50b6-4d57-86d8-10a2a7e60ab8" # RSS image
 draft: false
