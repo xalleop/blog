@@ -36,10 +36,10 @@ author: "Андрей Дерябин"
 
 
 {{< note quote >}}
-The last of the rock stars<br>
-When hip hop drove the big cars<br>
-In the time when new media<br>
-Was the big idea<br>
+The last of the rock stars\\
+When hip hop drove the big cars\\
+In the time when new media\\
+Was the big idea\\
 
 _[Kite](https://www.u2.com/lyrics/74) (2000), U2_
 {{< /note >}}
