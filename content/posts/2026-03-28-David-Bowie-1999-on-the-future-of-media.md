@@ -13,12 +13,6 @@ author: "Андрей Дерябин"
 <!--more-->
 
 Характерен заход интервьюера:  "Но это ведь просто инструмент?.. Просто другая система доставки контента...". Так и должен думать нормальный технарь на самом деле. И так сейчас думают и технари, и образованцы, чьим заблуждениям относительно того, что "ИИ – это просто инструмент" посвящены [несколько постов]({{< relref "2026-03-06-ai-dilemmas-v-obrazonanii-ch-1.md" >}}) выше. Представления обоих схожи и ошибочны, и прав здесь Боуи, если вам (как мне) мало Харари. А у технаря, как правило, нет базы для понимания такого сложного социотехнического объекта. 
-
-[![Клип](https://img.youtube.com/vi/FiK7s_0tGsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=FiK7s_0tGsg)
-
-
-In this BBC Newsnight interview from 1999 David Bowie talks to Jeremy Paxman  and makes some incredibly accurate predictions about the potential of the internet.
-
 {{< youtube FiK7s_0tGsg >}}
 
 **10:17**
