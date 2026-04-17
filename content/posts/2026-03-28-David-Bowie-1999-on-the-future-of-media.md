@@ -1,6 +1,6 @@
 ---
 title: "Дэвид Боуи имел сказать за будущее Интернета побольше некоторых экспертов"
-date: 2026-03-28T12:00:00+03:00
+date: 2026-05-28T12:00:00+03:00
 image: "https://img.youtube.com/vi/FiK7s_0tGsg/maxresdefault.jpg"
 draft: false
 description: "Дэвид Боуи в 1999 в интервью BBC рассуждает о будущем цифровых технологий, и его предсказания пугающе точны. Интервьюер Jeremy Paxman, BBC Newsnight. David Bowie about the future"
