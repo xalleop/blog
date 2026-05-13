@@ -15,7 +15,7 @@ author: "Андрей Дерябин"
 Университет Принца Мохаммада бин Фада в Саудовской Аравии провёл симпозиум [AI and Prompt Engineering: Transforming Education for the Future](https://pmu.edu.sa/ai-symposium). Привожу краткий пересказ моего доклада *"Генеративный ИИ и трансформация онтологии образования"* на русском. Он во многом перекликался с тем, о чём я [писал]({{< relref "2026-03-06-ai-dilemmas-v-obrazonanii-ch-1.md" >}}) в этом канале последние месяцы.
 {{< /note >}}
 
-![PMU conference hall](https://pmu.edu.sa/Attachments/About/Images/Auditorium-PMU-3.png)
+![PMU conference hall photo](https://pmu.edu.sa/Attachments/About/Images/Auditorium-PMU-3.png)
 
 Итак, я предлагаю  посмотреть на ситуацию с ИИ в образовании на трёх уровнях, которые предлагает философ [Мартин Саар](https://doi.org/10.1093/arisoc/aoy009): какой общественный **порядок** это поддерживает, какие **практики** это производит, и какой **субъект** в этом формируется.
 
