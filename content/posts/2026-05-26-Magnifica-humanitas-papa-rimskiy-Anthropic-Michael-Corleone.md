@@ -1,5 +1,5 @@
 ---
-title: "Папа Римский, Anthropic и Майкл Корлеоне"
+title: "ИИ, Папа Римский, Anthropic и Майкл Корлеоне"
 date: 2026-05-26T08:00:00+03:00
 image: "https://www.vatican.va/content/dam/leo-xiv/images/varie/enciclica%2018mag2026/1779693360688.JPG/_jcr_content/renditions/cq5dam.web.800.800.jpeg"
 draft: false
