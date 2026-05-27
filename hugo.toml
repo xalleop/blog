@@ -1,6 +1,7 @@
 baseURL = 'https://xalleop.github.io/blog/'
 languageCode = 'ru-ru'
 title = 'Вокруг ИИ'
+enableRobotsTXT = true  # генерировать robots.txt
 # theme = ''
 
 [services.googleAnalytics]
@@ -18,8 +19,6 @@ title = 'Вокруг ИИ'
     lineNumbersInTable = false
     tabWidth = 2
     
-enableRobotsTXT = true  # генерировать robots.txt
-
 [outputs]
   home = ["HTML", "RSS"]
 
