@@ -17,6 +17,8 @@ title = 'Вокруг ИИ'
     lineNos = true
     lineNumbersInTable = false
     tabWidth = 2
+    
+enableRobotsTXT = true  # генерировать robots.txt
 
 [outputs]
   home = ["HTML", "RSS"]
