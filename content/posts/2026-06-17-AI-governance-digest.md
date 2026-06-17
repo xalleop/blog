@@ -1,6 +1,7 @@
 ---
 title: "AI Governance: дайджест за июнь"
 date: 2026-06-17T05:00:00+03:00
+image: "https://github.com/user-attachments/assets/87fbf29f-f0cf-489a-b3e0-1ae351b0b543"
 draft: false
 description: ""
 tags: ["AI Governance", "доверенный ИИ", "суверенный ИИ", "образование", "Яндекс", "Сбербанк", "право"]
