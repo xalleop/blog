@@ -66,6 +66,7 @@ draft: false
 Содержание поста в Markdown...
 ```
 ## Метаданные
+
 ---
 title: "Название поста"
 date: 2024-03-18T12:00:00+03:00
@@ -176,12 +177,33 @@ summary: "Это кастомное описание поста, которое 
 Основные настройки в `hugo.toml`:
 
 ```toml
-baseURL = 'https://username.github.io/'
-title = 'Мой блог'
+baseURL = 'https://xalleop.github.io/blog/'
+languageCode = 'ru-ru'
+title = 'Вокруг ИИ'
+enableRobotsTXT = true  # генерировать robots.txt
+# theme = ''
 
+[services.googleAnalytics]
+  ID = 'G-DQ92W1DJ2Q'  # ← вставь сюда свой ID
+  
 [params]
-  author = "Ваше имя"
-  description = "Блог о технологиях"
+  author = "..."
+  description = "..."
+  telegram = "https://telegram.me/..."
+  
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 2
+    
+[outputs]
+  home = ["HTML", "RSS"]
+
+#[services.rss]
+# limit = 20  # количество постов в RSS (по умолчанию unlimited)
+
 ```
 
 ## 📂 Структура проекта
