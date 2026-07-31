@@ -4,8 +4,7 @@ date: 2026-07-31T08:00:00+03:00
 image: "https://github.com/user-attachments/assets/c5e51beb-929e-4121-a5ef-d03d86fd5a0a"
 draft: false
 description: "A 2026 study shows that government control of the media across the world already influences the output of LLMs via their training data"
-tags: ["LLM", "СМИ", "регулирование ИИ"] 
-categories: [""]
+tags: ["LLM", "СМИ", "регулирование ИИ"]
 author: "Андрей Дерябин"
 ---
 
