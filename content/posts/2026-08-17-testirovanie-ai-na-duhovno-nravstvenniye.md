@@ -19,4 +19,8 @@ author: "Андрей Дерябин"
 
 Эксперты предложили двухуровневую систему — открытый бенчмарк для предварительной публичной оценки и закрытый набор с измененными формулировками для финального тестирования.
 
+{{< note quote >}}
+[Как российский ИИ будет учиться традиционным ценностям]({{< relref "2026-02-18-kak-rossijskij-ii-ai-budet-uchitsya-tradicionnym-cennostyam.md" >}}) 
+{{< /note >}}
+
 ![robot_prayer](https://github.com/user-attachments/assets/a74ebe9b-490b-40ba-bece-80cffe7a4593)
