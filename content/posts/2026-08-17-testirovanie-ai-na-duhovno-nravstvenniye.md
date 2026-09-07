@@ -1,7 +1,7 @@
 ---
 title: "Бенчмарк духовно-нравственных ценностей для ИИ"
 date: 2026-08-17T12:48:00+03:00
-image: "https://github.com/user-attachments/assets/a74ebe9b-490b-40ba-bece-80cffe7a4593"
+image: "https://github.com/user-attachments/assets/b622a40c-bf1d-4efc-9974-a676afde78e0"
 draft: false
 description: ""
 tags: ["AI-governance", "Минцифры"]
@@ -23,4 +23,4 @@ author: "Андрей Дерябин"
 [Как российский ИИ будет учиться традиционным ценностям]({{< relref "2026-02-18-kak-rossijskij-ii-ai-budet-uchitsya-tradicionnym-cennostyam.md" >}}) 
 {{< /note >}}
 
-![robot_prayer](https://github.com/user-attachments/assets/a74ebe9b-490b-40ba-bece-80cffe7a4593)
+![robot_prayer](https://github.com/user-attachments/assets/b622a40c-bf1d-4efc-9974-a676afde78e0)
