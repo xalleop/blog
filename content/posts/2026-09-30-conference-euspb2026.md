@@ -3,7 +3,7 @@ title: "Возможна ли утопия после ИИ?"
 date: 2026-09-30T23:00:00+03:00
 image: "https://github.com/user-attachments/assets/14d37c24-91e1-475b-bf7a-f05b1a6c605f"
 draft: false
-description: "Rouvroy argues that algorithmic governance erases the norm along with its author. Value-aligned LLMs give the norm an author again, yet no single output can be traced back to it"
+description: "ИИ низводит будущее до статистического продолжения настоящего. Сможем ли мы вообразить что-то радикально новое в обществе управляемом алгоритмами?"
 tags: ["алгоритмическое управление", "алгоритмическая правительность", "algorithmic governmentality", "ИИ-право", "AI governance", "ИИ", "конференция"] 
 author: "Андрей Дерябин"
 ---

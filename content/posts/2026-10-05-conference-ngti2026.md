@@ -3,7 +3,7 @@ title: "Roll over Stanislavski and tell Nemirovich-Danchenko the news"
 date: 2026-10-05T06:00:00+03:00
 image: "https://github.com/user-attachments/assets/1d71624a-b0a8-497c-b8f4-3b547f532d47"
 draft: false
-description: "Performance philosophy paper announcement: Stanislavski and Chekhov as 2 Foucauldian technologies of the self diverging in 4 elements of ethical self-constitution"
+description: "Станиславский и Чехов как две технологии Я с точки зрения матрицы этического самосозидания М. Фуко"
 tags: ["care of the self", "aesthetics of existence", "technologies of the self", "Foucault", "subjectivation", "конференция"] 
 author: "Андрей Дерябин"
 
