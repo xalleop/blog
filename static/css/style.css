@@ -382,3 +382,109 @@ main {
     padding: 0 calc(var(--spacing-unit) * 2);
   }
 }
+
+/* ===== Formspree Form — адаптация под стиль блога ===== */
+
+/* Переопределяем переменные Formspree */
+.fs-form {
+  --color-primary: var(--text-link);           /* твой цвет ссылок */
+  --color-primary-active: var(--text-link-hover);
+  --color-border-default: var(--border-color);
+  --color-border-active: var(--text-link);
+  --color-text-default: var(--text-primary);
+  --color-text-muted: var(--text-secondary);
+  --color-background: var(--bg-secondary);
+  --font-family-body: var(--font-body);        /* Georgia */
+  --font-family-display: var(--font-headings); /* PT Serif Caption */
+}
+
+.fs-form {
+  display: grid;
+  row-gap: 1.5rem;
+  max-width: 100%;
+}
+
+.fs-field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.375rem;
+}
+
+.fs-label {
+  color: var(--text-primary);
+  font-family: var(--font-headings);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.fs-input,
+.fs-textarea {
+  appearance: none;
+  border-radius: 0.375rem;
+  border: none;
+  box-shadow: var(--border-color) 0 0 0 1px inset;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.fs-input {
+  height: 2.75rem;          /* 44px — комфортно для пальца */
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;          /* не меньше 16px — иначе iOS зумит при фокусе */
+}
+
+.fs-textarea {
+  min-height: 160px;        /* чуть больше для сообщения */
+  line-height: 1.6;
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;          /* тоже важно для iOS */
+}
+
+.fs-input:focus-visible,
+.fs-textarea:focus-visible {
+  box-shadow: var(--text-link) 0 0 0 1.5px inset;
+  outline: 2px solid var(--text-link);
+  outline-offset: 2px;
+}
+
+.fs-input::placeholder,
+.fs-textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+.fs-button-group {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fs-button {
+  background-color: var(--text-link);
+  border-radius: 0.375rem;
+  color: white;
+  cursor: pointer;
+  font-family: var(--font-headings);
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.fs-button:hover {
+  background-color: var(--text-link-hover);
+}
+
+/* Тёмная тема */
+@media (prefers-color-scheme: dark) {
+  .fs-input,
+  .fs-textarea {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+}
