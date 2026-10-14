@@ -455,7 +455,7 @@ main {
 
 .fs-input::placeholder,
 .fs-textarea::placeholder {
-  color: var(--text-secondary);
+  color: #aaaaaa;   /* было: var(--text-secondary); */
 }
 
 .fs-button-group {
