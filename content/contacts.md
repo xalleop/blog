@@ -29,7 +29,7 @@ type: "page"
       class="fs-input" 
       id="number" 
       name="number" 
-      placeholder="(XXX)XXXXXXX, t.me/nickname, etc."
+      placeholder="+X(XXX)X..., t.me/nickname, и т.д."
     />
   </div>
   <div class="fs-field">
