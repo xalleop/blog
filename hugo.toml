@@ -18,7 +18,9 @@ enableRobotsTXT = true  # генерировать robots.txt
     lineNos = true
     lineNumbersInTable = false
     tabWidth = 2
-    
+  [markup.goldmark.renderer] # разрешение HTML в markdown
+    unsafe = true
+        
 [outputs]
   home = ["HTML", "RSS"]
 
