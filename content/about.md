@@ -40,4 +40,5 @@ draft: false
 - автор [блога](https://xalleop.github.io/blog/) и [tg-канала](https://telegram.me/vokrug_ai_ru) «Вокруг ИИ: общество, человек и государство в эпоху ИИ; управление, регулирование, образование, безопасность»
 <!-- - https://www.linkedin.com/in/andreyderiabin/  -->
 
-<img src="https://github.com/user-attachments/assets/f683cb2a-b414-4adc-9d98-4cff1fc8562f" width="60%">
+
+<img src="https://github.com/user-attachments/assets/f683cb2a-b414-4adc-9d98-4cff1fc8562f" width="100%">
